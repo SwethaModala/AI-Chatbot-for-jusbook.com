@@ -25,7 +25,3 @@ Run (Windows, VS Code / PowerShell):
    uvicorn app:app --reload --host 127.0.0.1 --port 8000
 6. Open http://localhost:8000
 
-Notes:
-- Booking updates in-memory slots and appends to upcoming events.
-- UI does not show apology/error bot messages; server always returns a friendly response on failure.
-- For persistence add a DB (sqlite) and adapt save_conversation/booking logic.
